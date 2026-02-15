@@ -1,0 +1,25 @@
+{
+  "name": "acquisitions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch --env-file=.env  ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armanihsan-dev/acquisitions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/armanihsan-dev/acquisitions/issues"
+  },
+  "homepage": "https://github.com/armanihsan-dev/acquisitions#readme",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1"
+  }
+}
