@@ -21,9 +21,23 @@ read confirm
 
 if [ "$confirm" = "y" ] || [ "$confirm" = "Y" ]; then
   git add .
+
+  echo ""
+  echo "📦 Files and folders staged successfully."
+  git status
+
+  echo ""
+  echo "📝 Committing changes..."
   git commit -m "$message"
+
+  echo ""
+  echo "🚀 Pushing code to remote repository..."
   git push
-  echo "🚀 Code pushed successfully"
+
+  echo ""
+  echo "✅ Code pushed successfully. Keep building 💪"
+  echo ""
+
 else
   echo "❌ Commit cancelled"
 fi
