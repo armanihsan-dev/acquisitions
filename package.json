@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "dev": "node --watch --env-file=.env  ./src/index.js"
+    "dev": "node --watch --env-file=.env  ./src/index.js",
+    "commit": "sh ./commit.sh"
   },
   "repository": {
     "type": "git",
