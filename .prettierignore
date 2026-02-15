@@ -1,0 +1,9 @@
+node_modules
+dist
+build
+.idea
+coverage/
+drizzle/
+*.log
+package-lock.json
+
