@@ -14,7 +14,8 @@
     "#validations/*": "./src/validations/*"
   },
   "scripts": {
-    "dev": "node --watch --env-file=.env  ./src/index.js",
+    "dev": "nodemon --env-file=.env src/index.js",
+    "start": "node src/index.js",
     "commit": "sh ./commit.sh",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
@@ -37,6 +38,8 @@
   },
   "homepage": "https://github.com/armanihsan-dev/acquisitions#readme",
   "dependencies": {
+    "@arcjet/inspect": "^1.1.0",
+    "@arcjet/node": "^1.1.0",
     "@neondatabase/serverless": "^1.0.2",
     "bcrypt": "^6.0.0",
     "cookie-parser": "^1.4.7",
@@ -57,6 +60,7 @@
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.5",
     "globals": "^17.3.0",
+    "nodemon": "^3.1.11",
     "prettier": "^3.8.1"
   }
 }
